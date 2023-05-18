@@ -1,9 +1,9 @@
 var mysql = require("mysql");
 
 const con = mysql.createConnection({
-    host:"nodeapi.cvz5julykbwk.ap-northeast-1.rds.amazonaws.com",
+    host:"",
     user:"admin",
-    password:"testing123",
+    password:"",
     database: "nodeapi",
     port:3306
 });
